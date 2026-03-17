@@ -17,8 +17,6 @@ def divisao(num1, num2):  # definição da função divisão que divide dois nú
       return "ERRO: não é possível dividir por zero."
    return num1 / num2
 
-
-
 if operacao == "adicao":
    print("O resultado é:", adicao(num1, num2))
 elif operacao == "subtracao":
