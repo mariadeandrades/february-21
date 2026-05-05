@@ -8,3 +8,10 @@ h1 {
 #identity {
   text-decoration: underline wavy pink
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
