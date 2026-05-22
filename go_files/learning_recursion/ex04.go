@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func invert(a []string, inicio int, fim int) {
-	if inicio >= fim{
-		return 
+	if inicio >= fim {
+		return
 	}
 	a[inicio], a[fim] = a[fim], a[inicio]
 	invert(a, inicio+1, fim-1)
@@ -17,8 +17,8 @@ func main() {
 	fmt.Scan(&n)
 	a := make([]string, n)
 	fmt.Println("Digite as letras da string que deseja inverter, letra por letra:")
-	for i := 0; i < n; i ++{
-		fmt.Printf("Letra %v", i + 1)
+	for i := 0; i < n; i++ {
+		fmt.Printf("Letra %v", i+1)
 		fmt.Scan(&a[i])
 	}
 	invert(a, 0, len(a)-1)
