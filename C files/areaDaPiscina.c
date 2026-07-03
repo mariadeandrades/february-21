@@ -1,3 +1,6 @@
+/*Este programa calcula a área interna de uma piscina circular. Este valor é calculado pela fórmula
+de área de círculo genérica.*/
+
 #include <stdio.h>
 int main() {
     const float pi = 3.14;
