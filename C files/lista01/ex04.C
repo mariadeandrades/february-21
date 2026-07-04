@@ -5,11 +5,10 @@ int main() {
     printf("Digite um numero inteiro qualquer:\n");
     scanf("%f", &n);
     while (n != (int)n){
-        printf("Voce digitou um numero com casas decimais, mas este programa so trabalha com inteiros!\n");
-        printf("Digite um numero inteiro qualquer:\n");
+        printf("Erro: digite um numero inteiro (sem casas decimais):\n");
         scanf("%f", &n);
     }
-    printf("O numero inteiro escolhido por voce e %.0f! Boa escolha!", n);
+    printf("O numero inteiro escolhido por voce eh %.0f! Boa escolha!", n);
     return 0;
 }
 //Inicialmente eu ia usar essa estrtutura aqui:

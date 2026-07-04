@@ -8,15 +8,13 @@ int main() {
     printf("Digite um numero inteiro qualquer:\n");
     scanf("%f", &n1);
     while (n1 != (int)n1){
-        printf("Voce digitou um numero com casas decimais, mas este programa so trabalha com inteiros!\n");
-        printf("Digite um numero inteiro qualquer:\n");
+        printf("Erro: digite um numero inteiro (sem casas decimais):\n");
         scanf("%f", &n1);
     }
     printf("Digite mais um numero inteiro qualquer:\n");
     scanf("%f", &n2);
     while (n2 != (int)n2){
-        printf("Voce digitou um numero com casas decimais, mas este programa so trabalha com inteiros!\n");
-        printf("Digite um numero inteiro qualquer:\n");
+        printf("Erro: digite um numero inteiro (sem casas decimais):\n");
         scanf("%f", &n2);
     }
     soma = n1 + n2;

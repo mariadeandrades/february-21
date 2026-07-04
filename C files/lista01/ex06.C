@@ -5,7 +5,7 @@ int main() {
     printf("Digite um numero inteiro qualquer:");
     scanf("%f", &n);
     while (n != (int)n){
-        printf("Digite somente numeros inteiros (ou seja, sem virgula):");
+        printf("Erro: digite um numero inteiro (sem casas decimais):");
         scanf("%f", &n);
     }
     float s = n + 1;

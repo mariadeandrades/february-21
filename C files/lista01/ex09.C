@@ -5,6 +5,6 @@ int main() {
     printf("Digite um numero real qualquer:\n");
     scanf("%f", &n);
     float d = n/3;
-    printf("A terca parte de %.1f e %.1f.", n, d);
+    printf("A terca parte de %.1f eh %.1f.", n, d);
     return 0;
 }
